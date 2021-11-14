@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: #EAA51D;
+    margin: 0px;
+}
+.header{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inputs{
+    flex-direction: row;
+}
+.general-title{
+    font-size: 5em;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 1em;
+}
+.botones{
+    border: none;
+    width: 15em;
+    height: 1.8em;
+}
+.save-btn{
+    background-color: #F8F4C3;
+    cursor: pointer;
+    border: none;
+    height: 2.3em;
+    width: 15%;
+    font-size: 1.3em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.line{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.2em;
+}
+.final{
+    background-color: #4D482F;
+    width: 100%;
+    height: 3em;
+    position: absolute;
+    bottom: 0%;
+}
